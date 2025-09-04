@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+// import { NgStyle } from '../../../node_modules/@angular/common/common_module.d';
+import { NgStyle, NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-data',
-  imports: [],
+  imports: [NgStyle, NgClass],
   templateUrl: './data.html',
   styleUrl: './data.css',
 })
